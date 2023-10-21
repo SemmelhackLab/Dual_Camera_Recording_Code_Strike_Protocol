@@ -29,7 +29,7 @@ create_directory(Saving_Directory)
 # INITIALIZE LABJACK
 dev = u3.U3()
 dev.getCalibrationData()
-dt = 100
+dt = 10
 #dev.configIO(EnableCounter1=True, TimerCounterPinOffset=7)
 
 
